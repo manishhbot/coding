@@ -1,8 +1,16 @@
 """swap two variables in python with and without using temporary variable"""
+
+
+def swapp(a, b):
+    a, b = b, a
+    print(a)
+    print(b)
+
+
 a = "first_var"
 b = "second_var"
 
-a, b = b, a
+swapp(a, b)
 
 """Calculate the time taken by function using decorator in python
 and 
